@@ -1,44 +1,44 @@
-import work_1 from "../../assets/images/projects/work1.jpeg"
-import work_2 from "../../assets/images/projects/work2.jpeg"
-import work_3 from "../../assets/images/projects/work3.jpeg"
-import work_4 from "../../assets/images/projects/work4.jpeg"
+import work_1 from "../../assets/images/projects/II.png"
+import work_2 from "../../assets/images/projects/pp.png"
+import work_3 from "../../assets/images/projects/ba.png"
+import work_4 from "../../assets/images/projects/pr.png"
 
 export const projectsData = [
     {
         id: 1,
         src: work_1,
-        category: "Design",
-        title: "Mobile Application Design",
+        category: "Group",
+        title: "IT Insights - Web application",
     },
     {
         id: 2,
         src: work_2,
-        category: "Game",
-        title: "Website Makeup Design",
+        category: "Individual",
+        title: "Portfolio project",
     },
     {
         id: 3,
         src: work_3,
-        category: "Branding",
-        title: "Brand Identity and Motion Design",
+        category: "Individual",
+        title: "Modern Business App - Frontend Project",
     },
     {
         id: 4,
         src: work_4,
-        category: "Marketing",
-        title: "Mobile Application Design",
+        category: "Group",
+        title: "Pets Registration Web application ",
     },
-    {
-        id: 5,
-        src: work_3,
-        category: "Design",
-        title: "Brand Identity and Motion Design",
-    },
-    {
-        id: 6,
-        src: work_1,
-        category: "Marketing",
-        title: "Brand Identity and Motion Design"
-    },
+    // {
+    //     id: 5,
+    //     src: work_3,
+    //     category: "Design",
+    //     title: "Brand Identity and Motion Design",
+    // },
+    // {
+    //     id: 6,
+    //     src: work_1,
+    //     category: "Marketing",
+    //     title: "Brand Identity and Motion Design"
+    // },
 
 ]
