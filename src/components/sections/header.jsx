@@ -18,11 +18,11 @@ const menuList = [
         path: "resume",
         label: "Resume"
     },
-    {
-        id: 4,
-        path: "services",
-        label: "Services"
-    },
+    // {
+    //     id: 4,
+    //     path: "services",
+    //     label: "Services"
+    // },
     {
         id: 5,
         path: "portfolio",

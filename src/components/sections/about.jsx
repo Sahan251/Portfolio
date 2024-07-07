@@ -1,7 +1,10 @@
 import React from 'react'
 import { RiArrowRightUpLine, RiDownloadLine, RiFacebookCircleFill, RiTwitterXLine, RiLinkedinFill, RiGithubLine } from '@remixicon/react'
-import profile_img from "../../assets/images/about/profile.jpg"
+import profile_img from "../../assets/images/about/abt.png"
 import SlideUp from '../animations/slideUp'
+import cv from '../../assets/images/about/cv.pdf'
+import { TypeAnimation } from 'react-type-animation'
+
 const About = () => {
     return (
         <section id="about" className="about-area">
@@ -19,10 +22,10 @@ const About = () => {
                                 </div>
                                 <div className="about-social text-center">
                                     <ul>
-                                        <li><a href=""><i><RiFacebookCircleFill size={20} /></i></a></li>
-                                        <li><a href=""><i><RiTwitterXLine size={20} /></i></a></li>
-                                        <li><a href=""><i><RiLinkedinFill size={20} /></i></a></li>
-                                        <li><a href=""><i><RiGithubLine size={20} /></i></a></li>
+                                        <li><a href="https://web.facebook.com/sahan.bandara.7330"><i><RiFacebookCircleFill size={20} /></i></a></li>
+                                        {/* <li><a href=""><i><RiTwitterXLine size={20} /></i></a></li> */}
+                                        <li><a href="https://www.linkedin.com/in/sahan-bandara-973a8a227/"><i><RiLinkedinFill size={20} /></i></a></li>
+                                        <li><a href="https://github.com/Sahan251"><i><RiGithubLine size={20} /></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -34,21 +37,23 @@ const About = () => {
                         <div className="about-content-part">
                             <SlideUp>
                                 <h2>
-                                    Hello, I’m Sahan Bandara, <span> UX / UI Engineer</span>
-                                    Based in Sri Lanka.
+                                    Hello, I’m Sahan Bandara, <span className='hover-effect'>UI/UX Engineer </span>
+                                    based in Sri Lanka.
+
+
                                 </h2>
                                 <div className="hero-btns">
-                                    <a href="#" className="theme-btn">Download CV <i><RiDownloadLine size={16} /></i></a>
+                                   <a href={cv} download='cv'className="theme-btn">Download CV <i><RiDownloadLine size={16} /></i></a>
                                 </div>
                             </SlideUp>
                             <SlideUp>
                                 <ul className="list-style-one two-column">
-                                    <li><i><RiArrowRightUpLine size={18} /></i> Logo Design</li>
-                                    <li><i><RiArrowRightUpLine size={18} /></i> Social Marketing</li>
-                                    <li><i><RiArrowRightUpLine size={18} /></i> Branding Identity</li>
+                                    {/* <li><i><RiArrowRightUpLine size={18} /></i> Logo Design</li> */}
+                                    {/* <li><i><RiArrowRightUpLine size={18} /></i> Social Marketing</li> */}
+                                    {/* <li><i><RiArrowRightUpLine size={18} /></i> Branding Identity</li>
                                     <li><i><RiArrowRightUpLine size={18} /></i> Digital Marketing</li>
                                     <li><i><RiArrowRightUpLine size={18} /></i> Web Design</li>
-                                    <li><i><RiArrowRightUpLine size={18} /></i> Product Design</li>
+                                    <li><i><RiArrowRightUpLine size={18} /></i> Product Design</li> */}
                                 </ul>
                             </SlideUp>
                         </div>

@@ -14,8 +14,8 @@ const Experience = () => {
                 <div className="row">
                     <div className="col-xl-12 col-lg-12">
                         <Title>
-                            <p>Experience</p>
-                            <h2> Professional Resume</h2>
+                            <p>Education</p>
+                            <h2> Where knowledge is gained</h2>
                         </Title>
                     </div>
                 </div>

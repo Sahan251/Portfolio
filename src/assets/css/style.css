@@ -1263,8 +1263,11 @@ html {
 .hero-content .job {
     display: inline-block;
     background-color: #f5f5f5;
-    padding: 15px 40px;
+    padding: 10px 30px;
     margin-top: 10px;
+    border-radius: 30px;
+    
+
 }
 
 .hero-content .job span {
@@ -1293,6 +1296,7 @@ html {
     top: 50%;
     transform: translateY(-50%);
     border-radius: 100%;
+   
 }
 
 .about-content-part {}
@@ -1321,10 +1325,13 @@ html {
 }
 
 
-.about-content-part h2 span {
-    padding: 0 20px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
+/* .about-content-part h2 span{
+    
+} */
+
+    
+    
+
 
 
 
