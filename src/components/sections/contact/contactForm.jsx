@@ -10,7 +10,7 @@ const ContactForm = () => {
                         <div className="col-md-6">
                             <div className="form-group">
                                 <label htmlFor="name">Full Name</label>
-                                <input type="text" id="name" name="name" className="form-control" defaultValue="" placeholder="Steve Milner" required="" data-error="Please enter your Name" />
+                                <input type="text" id="name" name="name" className="form-control" defaultValue="" placeholder="Sahan Bandara" required="" data-error="Please enter your Name" />
                                 <label htmlFor="name" className="for-icon"><i className="far fa-user"></i></label>
                                 <div className="help-block with-errors"></div>
                             </div>
@@ -33,7 +33,7 @@ const ContactForm = () => {
                         <div className="col-md-12">
                             <div className="form-group mb-0">
                                 <button type="submit" className="theme-btn">
-                                    Send Me Message <i><RiMailLine size={16}/></i>
+                                    Send me a message <i><RiMailLine size={16}/></i>
                                 </button>
                                 <div id="msgSubmit" className="hidden"></div>
                             </div>
