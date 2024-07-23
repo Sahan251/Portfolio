@@ -16,7 +16,7 @@ const menuList = [
     {
         id: 3,
         path: "resume",
-        label: "Resume"
+        label: "Education"
     },
     // {
     //     id: 4,

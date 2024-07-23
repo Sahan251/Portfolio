@@ -2,6 +2,7 @@ import work_1 from "../../assets/images/projects/II.png"
 import work_2 from "../../assets/images/projects/pp.png"
 import work_3 from "../../assets/images/projects/ba.png"
 import work_4 from "../../assets/images/projects/pr.png"
+import { Link } from "react-scroll"
 
 export const projectsData = [
     {
@@ -9,6 +10,7 @@ export const projectsData = [
         src: work_1,
         category: "Group",
         title: "IT Insights - Web application",
+     
     },
     {
         id: 2,
