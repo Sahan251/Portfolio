@@ -10,6 +10,7 @@ export const projectsData = [
         src: work_1,
         category: "Group",
         title: "IT Insights - Web application",
+        link: "https://github.com/Sahan251/Group-10_IS_4110"
      
     },
     {
@@ -17,18 +18,24 @@ export const projectsData = [
         src: work_2,
         category: "Individual",
         title: "Portfolio project",
+        link: "https://github.com/Sahan251/Portfolio"
+     
     },
     {
         id: 3,
         src: work_3,
         category: "Individual",
         title: "Modern Business App - Frontend Project",
+        link: "https://github.com/Sahan251/business_app"
+     
     },
     {
         id: 4,
         src: work_4,
         category: "Group",
         title: "Pets Registration Web application ",
+        link: "https://github.com/UGPPKumara/Pet-Registration-Web-App"
+     
     },
     // {
     //     id: 5,
