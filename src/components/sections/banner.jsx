@@ -22,7 +22,7 @@ const Banner = () => {
                                
                                 'UI/UX DESIGNER',
                                 1000, 
-                                'FRONTEND DEVELOPER',
+                                'QUALITY ASSURANCE ENGINEER',
                                  1000,
                                
                             ]}

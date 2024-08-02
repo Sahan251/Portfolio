@@ -33,8 +33,8 @@ export const projectsData = [
         id: 4,
         src: work_4,
         category: "Group",
-        title: "Pets Registration Web application ",
-        link: "https://github.com/UGPPKumara/Pet-Registration-Web-App"
+        title: "Chemshop UI Design",
+        link: "https://www.figma.com/design/rkwuMYR5VPZFARG2VAeUj9/Chemshop?node-id=9-43&t=sKGwmxgTsn7wqq6w-1"
      
     },
     // {
