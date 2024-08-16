@@ -2,7 +2,7 @@ import React from 'react'
 import { RiArrowRightUpLine, RiDownloadLine, RiFacebookCircleFill, RiTwitterXLine, RiLinkedinFill, RiGithubLine } from '@remixicon/react'
 import profile_img from "../../assets/images/about/abt.png"
 import SlideUp from '../animations/slideUp'
-import cv from '../../assets/images/about/QA_sahan.pdf'
+import cv from '../../assets/images/about/cv.pdf'
 import { TypeAnimation } from 'react-type-animation'
 
 const About = () => {
