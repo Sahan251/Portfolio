@@ -37,7 +37,7 @@ const About = () => {
                         <div className="about-content-part">
                             <SlideUp>
                                 <h2>
-                                    Hello, I’m Sahan Bandara <span className='hover-effect'>UI/UX Designer and SQA Enthusiast in Sri Lanka </span>
+                                    Hello, I’m Sahan Bandara <span className='hover-effect'>UI/UX Designer and Business Analyst in Sri Lanka </span>
                                     
 
 
